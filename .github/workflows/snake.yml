@@ -5,10 +5,10 @@ on:
   schedule: # execute every 12 hours
     - cron: "* */12 * * *"
 
-workflow_dispatch:
-
-push:
-  branches:
+  workflow_dispatch:
+  
+  push:
+    branches:
     - master
 
 jobs:
